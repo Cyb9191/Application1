@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="action_settings">Ara ararauna</string>
+    <string name="action_settings2">Falco peregrinus</string>
+    <string name="action_settings3">Pelecanus conspicillatus</string>
+    <string name="action_settings4">Athene noctua </string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="first_fragment_label">Welcome</string>
+    <string name="contact">Info and Contact</string>
+    <string name="previous">Previous</string>
+
+
+</resources>
