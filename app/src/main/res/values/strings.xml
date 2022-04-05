@@ -1,15 +1,23 @@
 <resources>
-    <string name="app_name">MyApplication</string>
-    <string name="action_settings">Ara ararauna</string>
-    <string name="action_settings2">Falco peregrinus</string>
-    <string name="action_settings3">Pelecanus conspicillatus</string>
-    <string name="action_settings4">Athene noctua </string>
+    <string name="app_name">Winged</string>
+    <string name="action_settings1">Home</string>
+    <string name="action_settings2">Ara ararauna</string>
+    <string name="action_settings3">Falco peregrinus</string>
+    <string name="action_settings4">Pelecanus conspicillatus</string>
+    <string name="action_settings5">Athene noctua </string>
     <!-- Strings used for fragments for navigation -->
+    <string name="habitat">Habitat </string>
+    <string name="commonName">Common Name </string>
+    <string name="distribution">distribution</string>
+    <string name="back">back</string>
 
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="first_fragment_label">Welcome</string>
+
+    <string name="second_fragment_label">Winged</string>
+    <string name="first_fragment_label">Winged</string>
     <string name="contact">Info and Contact</string>
-    <string name="previous">Previous</string>
+    <string name="oneSound">One Sound</string>
+    <string name="telephone">Telephone: +39 0123456789</string>
+    <string name="email">Email: abcdefgh@gmail.com</string>
 
 
 </resources>

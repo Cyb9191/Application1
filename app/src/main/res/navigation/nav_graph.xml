@@ -10,19 +10,139 @@
         android:name="com.example.myapplication4.FirstFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
-
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            android:id="@+id/to_Home"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/to_Second"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/to_Ara"
+            app:destination="@id/ThirdFragment" />
+        <action
+            android:id="@+id/to_Falco"
+            app:destination="@id/FourthFragment" />
+        <action
+            android:id="@+id/to_Pele"
+            app:destination="@id/FifthFragment" />
+        <action
+            android:id="@+id/to_Athene"
+            app:destination="@id/SixthFragment" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
         android:name="com.example.myapplication4.SecondFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
+        <action
+            android:id="@+id/to_Home"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/to_First"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/to_Ara"
+            app:destination="@id/ThirdFragment" />
+        <action
+            android:id="@+id/to_Falco"
+            app:destination="@id/FourthFragment" />
+        <action
+            android:id="@+id/to_Pele"
+            app:destination="@id/FifthFragment" />
+        <action
+            android:id="@+id/to_Athene"
+            app:destination="@id/SixthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ThirdFragment"
+        android:name="com.example.myapplication4.ThirdFragment"
+        tools:layout="@layout/fragment_third">
+        <action
+            android:id="@+id/to_Home"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/to_First"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/to_Ara"
+            app:destination="@id/ThirdFragment" />
+        <action
+            android:id="@+id/to_Falco"
+            app:destination="@id/FourthFragment" />
+        <action
+            android:id="@+id/to_Pele"
+            app:destination="@id/FifthFragment" />
+        <action
+            android:id="@+id/to_Athene"
+            app:destination="@id/SixthFragment" />
 
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            android:id="@+id/action_ThirdFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FourthFragment"
+        android:name="com.example.myapplication4.FourthFragment"
+        tools:layout="@layout/fragment_fourth">
+        <action
+            android:id="@+id/to_Home"
+            app:destination="@id/FirstFragment" />
+
+        <action
+            android:id="@+id/to_Ara"
+            app:destination="@id/ThirdFragment" />
+        <action
+            android:id="@+id/to_Falco"
+            app:destination="@id/FourthFragment" />
+        <action
+            android:id="@+id/to_Pele"
+            app:destination="@id/FifthFragment" />
+        <action
+            android:id="@+id/to_Athene"
+            app:destination="@id/SixthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FifthFragment"
+        android:name="com.example.myapplication4.FifthFragment"
+        tools:layout="@layout/fragment_fifth">
+        <action
+            android:id="@+id/to_Home"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/to_Second"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/to_Ara"
+            app:destination="@id/ThirdFragment" />
+        <action
+            android:id="@+id/to_Falco"
+            app:destination="@id/FourthFragment" />
+        <action
+            android:id="@+id/to_Pele"
+            app:destination="@id/FifthFragment" />
+        <action
+            android:id="@+id/to_Athene"
+            app:destination="@id/SixthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SixthFragment"
+        android:name="com.example.myapplication4.SixthFragment"
+        tools:layout="@layout/fragment_sixth">
+        <action
+            android:id="@+id/to_Home"
+            app:destination="@id/FirstFragment" />
+
+        <action
+            android:id="@+id/to_Ara"
+            app:destination="@id/ThirdFragment" />
+        <action
+            android:id="@+id/to_Falco"
+            app:destination="@id/FourthFragment" />
+        <action
+            android:id="@+id/to_Pele"
+            app:destination="@id/FifthFragment" />
+        <action
+            android:id="@+id/to_Athene"
+            app:destination="@id/SixthFragment" />
     </fragment>
 </navigation>

@@ -1,3 +1,12 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fragment_marginButton1">220dp</dimen>
+    <dimen name="fragment_marginButton2">140dp</dimen>
+    <dimen name="fragment_marginButton3">220dp</dimen>
+    <dimen name="fragment_marginButton4">140dp</dimen>
+    <dimen name="fragment_constraintHorizontalButton1">0.081</dimen>
+    <dimen name="fragment_constraintHorizontalButton2">0.121</dimen>
+    <dimen name="fragment_constraintHorizontalButton3">0.907</dimen>
+    <dimen name="fragment_constraintHorizontalButton4">0.879</dimen>
+
 </resources>
