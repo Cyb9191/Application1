@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fragment_marginButton1">220dp</dimen>
+    <dimen name="fragment_marginButton2">140dp</dimen>
+    <dimen name="fragment_marginButton3">220dp</dimen>
+    <dimen name="fragment_marginButton4">140dp</dimen>
+    <dimen name="fragment_constraintHorizontalButton1">0.081</dimen>
+    <dimen name="fragment_constraintHorizontalButton2">0.121</dimen>
+    <dimen name="fragment_constraintHorizontalButton3">0.907</dimen>
+    <dimen name="fragment_constraintHorizontalButton4">0.879</dimen>
+    <dimen name="buttonHome_width">158dp</dimen>
+    <dimen name="buttonHome_height">66dp</dimen>
+    <dimen name="buttonHome1_marginBottom">176dp</dimen>
+    <dimen name="buttonHome2_marginBottom">88dp</dimen>
+    <dimen name="secondfragment_textviewMarginTop1">588dp</dimen>
+    <dimen name="secondfragment_textviewMarginTop2">2dp</dimen>
+    <dimen name="secondfragment_buttonMarginBottom">60dp</dimen>
+
+
+</resources>

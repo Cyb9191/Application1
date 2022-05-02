@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Choose Your Own Beer</string>
+    <string name="app_name">Winged</string>
     <string name="title_home">Home</string>
     <string name="title_profile">Profile</string>
     <string name="title_search">Search</string>
+    <string name="title_welcome">Welcome</string>
     <string name="search_bar">Search…</string>
-    <string name="search_navbar">search</string>
+    <string name="title_ara">Ara</string>
+    <string name="title_falco">Falco</string>
+    <string name="title_pelecanus">Pelecanus</string>
+    <string name="title_noctua">Noctua</string>
     <string name="profile_navbar">profile</string>
     <string name="home_navbar">home</string>
     <string name="details">Go to detail</string>
@@ -18,4 +22,24 @@
     <string name="log_out">log out</string>
     <string name="settings">settings</string>
     <string name="app_version">v.1.0.0</string>
+
+
+    <string name="action_settings1">Home</string>
+    <string name="action_settings2">Ara ararauna</string>
+    <string name="action_settings3">Falco peregrinus</string>
+    <string name="action_settings4">Pelecanus conspicillatus</string>
+    <string name="action_settings5">Athene noctua </string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="habitat">Habitat </string>
+    <string name="commonName">Common Name </string>
+    <string name="distribution">distribution</string>
+    <string name="back">back</string>
+    <string name="second_fragment_label">Winged</string>
+    <string name="first_fragment_label">Winged</string>
+    <string name="contact">Info and Contact</string>
+    <string name="oneSound">One Sound</string>
+    <string name="telephone">Telephone: +39 0123456789</string>
+    <string name="email">Email: abcdefgh@gmail.com</string>
+    <string name="test">TRY THE TEST!</string>
+
 </resources>

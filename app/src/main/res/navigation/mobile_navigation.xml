@@ -8,21 +8,41 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.chooseyouowncocktail_g2.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:label="@string/title_welcome"
+        tools:layout="@layout/fragment_home">
+        <action
+          android:id="@+id/to_Second"
+          app:destination="@id/navigation_second" />
+    </fragment>
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.chooseyouowncocktail_g2.ui.dashboard.DashboardFragment"
-        android:label="@string/search_navbar"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_third"
+        android:name="com.example.chooseyouowncocktail_g2.ui.fragment.ThirdFragment"
+        android:label="@string/title_ara"
+        tools:layout="@layout/fragment_third" />
     <fragment
-        android:id="@+id/navigation_profile"
-        android:name="com.example.chooseyouowncocktail_g2.ui.profile.ProfileFragment"
-        android:label="@string/title_profile"
-        tools:layout="@layout/fragment_profile" />
+        android:id="@+id/navigation_fourth"
+        android:name="com.example.chooseyouowncocktail_g2.ui.fragment.FourthFragment"
+        android:label="@string/title_falco"
+        tools:layout="@layout/fragment_fourth" />
     <fragment
-        android:id="@+id/detailDrinkFragment"
-        android:name="com.example.chooseyouowncocktail_g2.DetailDrinkFragment"
-        android:label="DetailDrinkFragment" />
+        android:id="@+id/navigation_fifth"
+        android:name="com.example.chooseyouowncocktail_g2.ui.fragment.FifthFragment"
+        android:label="@string/title_pelecanus"
+        tools:layout="@layout/fragment_fifth" />
+
+    <fragment
+        android:id="@+id/navigation_sixth"
+        android:name="com.example.chooseyouowncocktail_g2.ui.fragment.SixthFragment"
+        android:label="@string/title_noctua"
+        tools:layout="@layout/fragment_sixth" />
+    <fragment
+        android:id="@+id/navigation_second"
+        android:name="com.example.chooseyouowncocktail_g2.ui.fragment.SecondFragment"
+        android:label="DetailDrinkFragment"
+        tools:layout="@layout/fragment_second">
+        <action
+          android:id="@+id/to_home"
+          app:destination="@id/navigation_home" />
+    </fragment>
 </navigation>
