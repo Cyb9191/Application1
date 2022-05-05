@@ -11,8 +11,13 @@
         android:label="@string/title_welcome"
         tools:layout="@layout/fragment_home">
         <action
-          android:id="@+id/to_Second"
-          app:destination="@id/navigation_second" />
+          android:id="@+id/to_second"
+          app:destination="@id/navigation_second"/>
+        <action
+            android:id="@+id/to_seventh"
+            app:destination="@id/navigation_seventh">
+
+        </action>
     </fragment>
 
     <fragment
@@ -45,4 +50,50 @@
           android:id="@+id/to_home"
           app:destination="@id/navigation_home" />
     </fragment>
+    <fragment
+        android:id="@+id/navigation_seventh"
+        android:name="com.example.chooseyouowncocktail_g2.ui.fragment.SeventhFragment"
+        android:label="@string/test_label"
+        tools:layout="@layout/fragment_seventh"/>
+        <action
+          android:id="@+id/to_eighth"
+          app:destination="@id/navigation_eighth"/>
+        <action
+          android:id="@+id/to_home"
+          app:destination="@id/navigation_home"
+          tools:ignore="DuplicateIds" />
+    <fragment
+        android:id="@+id/navigation_eighth"
+        android:name="com.example.chooseyouowncocktail_g2.ui.fragment.EighthFragment"
+        android:label="@string/test_label"
+        tools:layout="@layout/fragment_ninth"/>
+        <action
+           android:id="@+id/to_ninth"
+           app:destination="@id/navigation_ninth"/>
+        <action
+           android:id="@+id/to_home"
+           app:destination="@id/navigation_home"
+           tools:ignore="DuplicateIds" />
+    <fragment
+        android:id="@+id/navigation_ninth"
+        android:name="com.example.chooseyouowncocktail_g2.ui.fragment.NinthFragment"
+        android:label="@string/title_noctua"
+        tools:layout="@layout/fragment_sixth"/>
+        <action
+          android:id="@+id/to_next"
+          app:destination="@id/navigation_home"
+          tools:ignore="DuplicateIds" />
+    <fragment
+        android:id="@+id/navigation_tenth"
+        android:name="com.example.chooseyouowncocktail_g2.ui.fragment.TenthFragment"
+        android:label="@string/title_noctua"
+        tools:layout="@layout/fragment_tenth"/>
+        <action
+          android:id="@+id/to_next"
+          app:destination="@id/navigation_home"
+          tools:ignore="DuplicateIds" />
+
+
+
+
 </navigation>

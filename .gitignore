@@ -6,7 +6,8 @@
 
 # Files for the ART/Dalvik VM
 *.dex
-
+/home/michele/Scrivania/develhope/MyApplication/MyApplicationCompleto3/app/src/main/java/com/example/chooseyouowncocktail_g2/adapter/BirdCardAdapterSecond.kt
+/home/michele/Scrivania/develhope/MyApplication/MyApplicationCompleto3/app/src/main/java/com/example/chooseyouowncocktail_g2/ui/fragment/TenthFragment.kt
 # Java class files
 *.class
 

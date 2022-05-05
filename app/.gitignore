@@ -2,3 +2,5 @@
 idea/
 .idea/*
 /.idea/*
+chooseyouowncocktail_g2/ui/fragment/TenthFragment.kt
+chooseyouowncocktail_g2/adapter/BirdCardAdapterSecond.kt

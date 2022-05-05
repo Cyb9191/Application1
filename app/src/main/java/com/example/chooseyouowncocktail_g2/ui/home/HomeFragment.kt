@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import com.example.chooseyouowncocktail_g2.R
 
@@ -44,7 +45,10 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.buttonContact.setOnClickListener {
-            findNavController().navigate(R.id.to_Second)
+            findNavController().navigate(R.id.to_second)
+        }
+        binding.buttonTest.setOnClickListener {
+            findNavController().navigate(R.id.to_seventh)
         }
 
     }

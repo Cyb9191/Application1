@@ -9,11 +9,11 @@
 
 
     <Button
-        android:id="@+id/button_first"
+        android:id="@+id/button_test"
         android:layout_width="@dimen/buttonHome_width"
         android:layout_height="@dimen/buttonHome_height"
         android:layout_marginBottom="@dimen/buttonHome1_marginBottom"
-        android:text="@string/test"
+        android:text="@string/test_try"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
